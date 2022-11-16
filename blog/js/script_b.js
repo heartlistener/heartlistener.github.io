@@ -22,10 +22,14 @@ window.onscroll = () =>{
 
 let list = document.querySelector(".list_img");
 let box = document.querySelector(".box_img");
-
+let left_img = document.querySelector("#left_img");
+let right_img = document.querySelector("#right_img");
 list.innerHTML += list.innerHTML;
 
 let left = 0;
+
+let n =34;
+let speed = 2.5;
 
 let timer;
 
@@ -34,14 +38,20 @@ function move() {
 
   timer = setInterval(function () {
 
-    left -= 5;
-    if (left === -(950*11+25*10)){
+    left -= speed;
+    if (left === -(950*n+25*(n-1))){
       left = 0
     }
     list.style.left = left + 'px'
-  },20)
+  },10)
 }
 
+function speedup(){
+  speed += 0.3;
+}
+function speeddown(){
+  speed -= 0.3;
+}
 
 move()
 box.onmouseenter = function () {
@@ -50,3 +60,7 @@ box.onmouseenter = function () {
 box.onmouseleave = function () {
   move();
 }
+
+
+left_img.addEventListener("click",speeddown);
+right_img.addEventListener("click",speedup);
