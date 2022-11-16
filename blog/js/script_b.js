@@ -1,3 +1,4 @@
+
 let menu = document.querySelector('#menu-bars');
 let navbar = document.querySelector('.navbar');
 
@@ -11,16 +12,41 @@ menu.onclick = () =>{
 let searchIcon = document.querySelector('#search-icon');
 let searchForm = document.querySelector('.search-form');
 
-searchIcon.onclick = () =>{
-  searchIcon.classList.toggle('fa-times');
-  searchForm.classList.toggle('active');
-  menu.classList.remove('fa-times');
-  navbar.classList.remove('active');
-}
+
 
 window.onscroll = () =>{
   menu.classList.remove('fa-times');
   navbar.classList.remove('active');
-  searchIcon.classList.remove('fa-times');
-  searchForm.classList.remove('active');
+}
+
+
+let list = document.querySelector(".list_img");
+let box = document.querySelector(".box_img");
+
+list.innerHTML += list.innerHTML;
+
+let left = 0;
+
+let timer;
+
+function move() {
+  clearInterval(timer)
+
+  timer = setInterval(function () {
+
+    left -= 5;
+    if (left === -(950*11+25*10)){
+      left = 0
+    }
+    list.style.left = left + 'px'
+  },20)
+}
+
+
+move()
+box.onmouseenter = function () {
+  clearInterval(timer);
+}
+box.onmouseleave = function () {
+  move();
 }
