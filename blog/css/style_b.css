@@ -1,0 +1,234 @@
+:root{
+    --orange:#e67e22;
+    --black:#666;
+    --hui:#888;
+    --light-color:coral;
+    --border:.1rem solid rgba(0,0,0,.2);
+    --box-shadow:0 .5rem 1rem rgba(0,0,0,.1);
+    --header_bg:#333;
+    --bg:#444;
+}
+body{
+    background-color: var(--bg);
+    box-sizing: border-box;
+}
+*{
+    margin:0; padding:0;
+    box-sizing: border-box;
+    outline: none; border:none;
+    text-decoration: none;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: lighter;
+    border:1px solid red;
+}
+
+html{
+    font-size: 62.5%;
+    overflow-x: hidden;
+    scroll-behavior: smooth;
+    scroll-padding-top: 6rem;
+}
+
+.header{
+    position: fixed;
+    top:0; left:0; right:0;
+    z-index: 1000;
+    background: var(--header_bg);
+    box-shadow: var(--box-shadow);
+    display: flex;
+    align-items: center;
+    padding:1.2rem 7%;
+}
+
+.header .logo{
+    color:var(--black);
+    font-size: 2.5rem;
+    margin-right: auto;
+}
+
+.header .logo span{
+    color:var(--orange);
+}
+
+.header .navbar a{
+    color:var(--light-color);
+    margin-right: 2rem;
+    font-size: 1.7rem;
+    text-transform: capitalize;
+}
+
+.header .navbar a:hover{
+    color:var(--orange);
+}
+
+.header .icons i{
+    height:4.5rem;
+    line-height:4.5rem;
+    width:4.5rem;
+    text-align: center;
+    color:var(--orange);
+    background: var(--header_bg);
+    border-radius: 50%;
+    margin-left: .7rem;
+    font-size: 1.7rem;
+    cursor: pointer;
+}
+
+.header .icons i:hover{
+    color:black;
+    background:var(--orange);
+}
+
+.header .search-form{
+    position: absolute;
+    background:var(--black);
+    border-radius: .5rem;
+    display: flex;
+    align-items: center;
+    box-shadow: var(--box-shadow);
+    top:110%; right:7%;
+    height:6rem;
+    width:50rem;
+    padding:1rem;
+    display: none;
+}
+
+.header .search-form {
+    width:100%;
+    border:var(--border);
+    border-radius: .5rem;
+    padding:1rem;
+    font-size: 1.7rem;
+    color:var(--black);
+    height: 100%;
+}
+
+.header .search-form label{
+    font-size: 2rem;
+    padding-left: 1rem;
+    padding-right: .5rem;
+    cursor: pointer;
+    color:var(--black);
+}
+
+.header .search-form label:hover{
+    color:var(--orange);
+}
+
+#menu-bars{
+    display: none;
+}
+.img_con{
+    height:100vh;
+    justify-content: center;
+}
+.img{
+    display: flex;
+    flex-direction:column;
+    margin-left: 2.5%;
+    margin-right:2.5%;
+    width:95%;
+    height: 97.5%;
+    background-color: #111;
+    
+}
+.content{
+    display: flex;
+    flex-direction: column;
+    
+}
+
+/* media queries  */
+
+@media (max-width:1100px){
+
+    #menu-bars{
+        display: inline-block;
+    }
+
+    .header .search-form{
+        top:100%; left: 0; right: 0;
+        border-top: var(--border);
+        width: 100%;
+        border-radius: 0;
+    }
+
+    .header .navbar{
+        position: absolute;
+        top:100%; left: 0; right: 0;
+        border-top: var(--border);
+        border-bottom: var(--border);
+        background: var(--hui);        
+        display: none;
+
+    }
+
+    .header .navbar.active{
+        display: block;
+    }
+    .navbar.active a:hover{
+        background-color: #bbb;
+        color:#fff;
+    }
+    .header .navbar a{
+        display: block;
+        background:var(--black);
+        padding:1.5rem;
+        margin:1.5rem;
+        border-radius: .5rem;
+        border:var(--border);
+        text-align:center;
+        font-family:Helvetica, sans-serif;
+        color:#ff9f3f;
+    }
+
+}
+
+@media (max-width:800px){
+
+    #menu-bars{
+        display: inline-block;
+    }
+
+    .header .search-form{
+        top:100%; left: 0; right: 0;
+        border-top: var(--border);
+        width: 100%;
+        border-radius: 0;
+    }
+
+    .header .navbar{
+        position: absolute;
+        top:100%; left: 0; right: 0;
+        border-top: var(--border);
+        border-bottom: var(--border);
+        background: var(--hui);        
+        display: none;
+    }
+
+    .header .navbar.active{
+        display: block;
+    }
+
+    .header .navbar a{
+        display: block;
+        background:var(--black);
+        padding:1.5rem;
+        margin:1.5rem;
+        border-radius: .5rem;
+        border:var(--border);
+    }
+
+}
+
+@media (max-width:500px){
+
+    html{
+        font-size: 50%;
+    }
+
+    .contact form .inputBox input{
+        width:100%;
+    }    
+    
+}
