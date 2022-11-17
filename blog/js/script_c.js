@@ -1,3 +1,4 @@
+let sound_c = 0;
 function initVars(){
     
     	pi=Math.PI;
@@ -287,7 +288,7 @@ function initVars(){
     initVars();
     frame();
 
-	let sound_c = 0;
+
 	let sound_btn = document.querySelector("#_3");
 	function sound_change(){
 		sound_c++;
