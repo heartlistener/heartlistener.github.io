@@ -1,0 +1,29 @@
+@media screen and (min-device-width:481px) {
+    .sharing{
+        text-align:center;
+        width: 100vh;
+        margin: 0 auto;
+    }
+    .bzhan{
+        width:100vh;
+        height:70vh;
+    }
+    
+}
+
+@media screen and (max-device-width:480px) {
+    .sharing{
+        text-align:center;
+        margin: 0 auto;
+        width: 1000px;
+    }
+    .bzhan{
+        width:1000px;
+        height:600px;
+        flex-shrink: 1;
+    }
+    .b{
+        font-size: 30px;
+    }
+    
+}
