@@ -120,6 +120,7 @@ function initVars(){
     		sparks.push(spark);
     	}
     	switch(parseInt(Math.random()*4)){
+
     		case 0:	pow=new Audio(s+"pow1.ogg"); break;
     		case 1:	pow=new Audio(s+"pow2.ogg"); break;
     		case 2:	pow=new Audio(s+"pow3.ogg"); break;
@@ -127,7 +128,8 @@ function initVars(){
     	}
     	d=Math.sqrt((x-playerX)*(x-playerX)+(y-playerY)*(y-playerY)+(z-playerZ)*(z-playerZ));
     	pow.volume=1.5/(1+d/10);
-    	pow.play();
+		if (sound_c%2 == 1)
+    		pow.play();
     }
     
     function doLogic(){
@@ -284,3 +286,10 @@ function initVars(){
     
     initVars();
     frame();
+
+	let sound_c = 0;
+	let sound_btn = document.querySelector("#_3");
+	function sound_change(){
+		sound_c++;
+	}
+	sound_btn.addEventListener("click",sound_change)
