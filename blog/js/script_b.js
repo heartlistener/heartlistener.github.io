@@ -70,7 +70,7 @@ let last_level = document.querySelector(".fbtn_1");
 let next_level = document.querySelector(".fbtn_2");
 let img = document.querySelector("#_2");
 let h = img.offsetHeight;
-let level = 1;
+let level = 0;
 function go_next() {
     level++;
    window.scrollTo(0,level*h);
