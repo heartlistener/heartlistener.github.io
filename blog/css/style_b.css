@@ -119,6 +119,10 @@ html{
     display: none;
 }
 .img_con{
+    height:93vh;
+    justify-content: center;
+}
+#first_bg{
     height:100vh;
     justify-content: center;
 }
@@ -127,9 +131,8 @@ html{
     flex-direction: column;
     justify-content: center;
     align-items: center;
-
     width:100%;
-    height: 99%;
+    height: 93vh;
     background-color: #111;
 }
 .content{
@@ -144,7 +147,9 @@ html{
     width:95%;
     overflow: hidden;
     position: relative;
-    height: 80%;
+    height: 70%;
+    margin-bottom: 20px;
+
 }
 .box_img > .list_img{
     position:absolute;
@@ -162,17 +167,18 @@ html{
     align-items: center;
 }
 .title_img{
-    padding: 20px 0px;
+    margin: 0px 0px 20px;
     color: #999;
-    height:50px;
+    height:30px;
     font-size: larger;
 }
+
 .btn_img{
-    height: 30px;
+    height: 40px;
     display: flex;
     justify-content: center;
     color:#e67e22;
-    padding:0px 0px 5px;
+    padding:10px 0px 0px;
 }
 #blank_bg img{
     overflow: hidden;
@@ -186,16 +192,37 @@ html{
     font-size: 25px;
 }
 #blank_bg {
-    height:99vh;
+    height:100vh;
     width:100vw;
     overflow: hidden;
     text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 #left_img:active,#right_img:active{
     filter:invert(100%)
 }
+#_3{
+    border:2px solid red;
+}
 /* media queries  */
-
+.float_btn{
+    position: fixed;
+    width:30px;
+    height: 60px;
+    z-index: 100px;
+    bottom: 20px;
+    right:20px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: #333;
+    border-radius: 50px;
+}
 @media (max-width:1100px){
 
     #menu-bars{
