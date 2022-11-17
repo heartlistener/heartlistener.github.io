@@ -174,15 +174,21 @@ html{
 }
 
 .btn_img{
-    height: 40px;
+    height: 50px;
+    font-size: 10px;
     display: flex;
+    align-items: center;
     justify-content: center;
     color:#e67e22;
-    padding:10px 0px 0px;
+}
+#left_img,#right_img{
+    width:40px;
+    height: 40px;
+    margin-left:10px;
+    margin-right: 10px;
 }
 #blank_bg img{
     overflow: hidden;
-
 }
 #blank_bg p{
     position: absolute;
@@ -206,6 +212,7 @@ html{
 }
 #_3{
     border:2px solid red;
+    overflow: hidden;
 }
 /* media queries  */
 .float_btn{
