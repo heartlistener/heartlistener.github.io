@@ -199,3 +199,14 @@ const change_jdsbj = () => {
   }
 }
 jdsbj_next.addEventListener("click",change_jdsbj);
+
+let player_btn = document.querySelector("#player_btn");
+let player_space = document.querySelector(".add_player");
+let real_player = document.querySelector(".wrapper");
+
+function add_player(){
+  real_player.style.display = "block";
+  player_space.style.display = "none";
+}
+
+player_btn.addEventListener("click",add_player);
