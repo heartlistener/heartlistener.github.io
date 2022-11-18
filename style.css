@@ -359,13 +359,13 @@ body{
         font-weight: 4000;
         font-size :40px;
         color:var(--font_color);
-        font-family: Simsun;
+        font-family: "Simsun";
     }
     .kuai{
         margin:0px;
         width:200px;
         min-height: 37px;
-        padding: 20px;
+        padding: 20px 0 0px;
         margin: 0px 20px 20px;
         background:var(--header_bg);
         border: 2px solid var(--border_color);
