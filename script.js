@@ -3,6 +3,10 @@ rt = document.documentElement.style;
 hd = document.querySelector(".caption");
 hm = document.querySelector(".head_m");
 hbtn = document.querySelector(".head_btn");
+words1 = document.querySelector("#words_l");
+words2 = document.querySelector("#words_r");
+words_btn = document.querySelector(".words_btn");
+
 let c = 0;
 
 const change_bg =()=>{
@@ -34,15 +38,10 @@ hd.addEventListener('click',change_bg);
 //     --border_color:#ccc:
 // }
 
-let n = 39;
-let h_c = Math.floor(Math.random()*(n+1));
+let text_n = 39;
 
 const change_h = () => {
-  h_c++;
-  if (h_c==n+1)
-  {
-    h_c=1;
-  }
+  let h_c = Math.floor(Math.random()*(text_n+1));
   switch(h_c){
     case 1:hm.innerHTML="<p>未来将属于两种人：思想的人和劳动的人，实际上，这两种人是一种人，因为思想也是劳动。</p>";
         break;
@@ -125,3 +124,126 @@ const change_h = () => {
   }
 }
 hbtn.addEventListener("click",change_h);
+
+//words
+
+
+let words_n = 26;
+change_words();
+setInterval(change_words, 5000); 
+words_btn.addEventListener("click",change_words);
+function change_words(){
+    let words_c = Math.floor(Math.random()*(words_n+1));
+
+    switch(words_c){
+        case 0:
+            words1.innerHTML='<p>principle n.</p><p>原则</p>';
+            words2.innerHTML='<p>principal adj.</p><p>主要的</p>';
+            break;   
+        case 1: 
+            words1.innerHTML='<p>captive n./adj.</p><p>俘虏/被俘获的</p>';
+            words2.innerHTML='<p>caption n.</p><p>字幕</p>';
+            break;      
+        case 2: 
+            words1.innerHTML='<p>considerable adj.</p><p>相当大的</p>';
+            words2.innerHTML='<p>considerate adj.</p><p>体贴的</p>';
+            break;  
+        case 3: 
+            words1.innerHTML='<p>impart v.</p><p>告知,传授</p>';
+            words2.innerHTML='<p>impact v./n.</p><p>冲击,影响</p>';
+            break;
+        case 4: 
+            words1.innerHTML='<p>assemble v.</p><p>聚集</p>';
+            words2.innerHTML='<p>resemble v.</p><p>与…相似</p>';
+            break;    
+        case 5: 
+            words1.innerHTML='<p>curve v.</p><p>使弯曲</p>';
+            words2.innerHTML='<p>curse v.</p><p>诅咒</p>';
+            break;    
+        case 6: 
+            words1.innerHTML='<p>predominant adj.</p><p>盛行的</p>';
+            words2.innerHTML='<p>dominant adj.</p><p>首要的</p>';
+            break;    
+        case 7: 
+            words1.innerHTML='<p>eminent adj.</p><p>杰出的</p>';
+            words2.innerHTML='<p>inminent adj.</p><p>即将发生的、迫近的</p>';
+            break; 
+        case 8: 
+            words1.innerHTML='<p>vocation n.</p><p>职业</p>';
+            words2.innerHTML='<p>vacation n.</p><p>假期</p>';
+            break; 
+        case 9: 
+            words1.innerHTML='<p>apartment n.</p><p>公寓</p>';
+            words2.innerHTML='<p>department n.</p><p>部门</p>';
+            break; 
+        case 10:
+            words1.innerHTML='<p>affict v.</p><p>折磨(一直打)</p>';
+            words2.innerHTML='<p>inflict v.</p><p>使遭受(重击)</p>';
+            break;   
+        case 11: 
+            words1.innerHTML='<p>definite adj.</p><p>明确的的</p>';
+            words2.innerHTML='<p>definitive adj.</p><p>最终的</p>';
+            break;       
+        case 12: 
+            words1.innerHTML='<p>vogue n./adj.</p><p>时尚/流行的</p>';
+            words2.innerHTML='<p>vague n.</p><p>模糊的</p>';
+            break;  
+        case 13: 
+            words1.innerHTML='<p>discrete adj.</p><p>分离的</p>';
+            words2.innerHTML='<p>discreet adj.</p><p>谨慎的</p>';
+            break;
+        case 14: 
+            words1.innerHTML='<p>tribe n.</p><p>部落</p>';
+            words2.innerHTML='<p>bribe n./v.</p><p>贿赂</p>';
+            break;    
+        case 15: 
+            words1.innerHTML='<p>delicate adj.</p><p>精美的</p>';
+            words2.innerHTML='<p>dedicate v.</p><p>献身于</p>';
+            break;    
+        case 16: 
+            words1.innerHTML='<p>dictate v.</p><p>命令,口授</p>';
+            words2.innerHTML='<p>indicate adj.</p><p>指示,表明</p>';
+            break;    
+        case 17: 
+            words1.innerHTML='<p>candidate n.</p><p>候选人</p>';
+            words2.innerHTML='<p>indicate adj.</p><p>指示,表明</p>';
+            break; 
+        case 18: 
+            words1.innerHTML='<p>confirm v.</p><p>证实(客观)</p>';
+            words2.innerHTML='<p>affirm v.</p><p>肯定(主观)</p>';
+            break; 
+        case 19: 
+            words1.innerHTML='<p>exquisite adj.</p><p>精致的</p>';
+            words2.innerHTML='<p>requisite adj./n.</p><p>必须的/必需品</p>';
+            break;
+        case 20:
+            words1.innerHTML='<p>preserve v.</p><p>保护,保养</p>';
+            words2.innerHTML='<p>persevere v.</p><p>坚持不懈</p>';
+            break;
+        case 21: 
+            words1.innerHTML='<p>strife n.</p><p>冲突</p>';
+            words2.innerHTML='<p>stifle v</p><p>使窒息,抑制</p>';
+            break;
+        case 22: 
+            words1.innerHTML='<p>declaim v.</p><p>声明</p>';
+            words2.innerHTML='<p>acclaim v./n.</p><p>称赞</p>';
+            break;
+        case 23: 
+            words1.innerHTML='<p>repel v.</p><p>击退,使反感</p>';
+            words2.innerHTML='<p>rebel v./n.</p><p>造反/反抗者</p>';
+            break;
+        case 24: 
+            words1.innerHTML='<p>tumble n./v.</p><p>突然跌倒</p>';
+            words2.innerHTML='<p>stumble n./v.</p><p>绊倒</p>';
+            break;
+        case 25: 
+            words1.innerHTML='<p>crumble v./n.</p><p>破碎/面包屑</p>';
+            words2.innerHTML='<p>scramble n./v.</p><p>攀登,争夺</p>';
+            break;
+        case 26: 
+            words1.innerHTML='<p>perplex v.</p><p>使迷惑</p>';
+            words2.innerHTML='<p>complex adj.</p><p>复杂的</p>';
+            break;
+    }
+}
+
