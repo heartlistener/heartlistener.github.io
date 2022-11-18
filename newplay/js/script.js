@@ -152,7 +152,7 @@ let allMusic =[
     artist:"邓紫棋", 
     },
     {
-    src:"http://music.163.com/song/media/outer/url?id=409650851", 
+    src:"http://music.163.com/song/media/outer/url?id=446944042", 
     name : "霜雪千年",
     artist:"排骨教主", 
     },
