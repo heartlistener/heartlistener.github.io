@@ -20,6 +20,23 @@ window.onscroll = () =>{
 }
 
 
+//welcome to my secret place
+const text_l = document.querySelector('#text_1')
+const text1 = 'Welcome to My Secret Place!'
+let idx = 1
+let speed_1 = 100
+writeText()
+function writeText() {
+  text_l.innerText = text1.slice(0, idx)
+
+  idx++
+
+  if(idx > text1.length) {
+      idx = 1
+  }
+  setTimeout(writeText, speed_1)
+}
+//∑≈”≥ “
 let list = document.querySelector(".list_img");
 let box = document.querySelector(".box_img");
 let left_img = document.querySelector("#left_img");
