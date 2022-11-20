@@ -8,32 +8,7 @@ const jbtn = document.querySelector('#jump_btn');
 const sc = window.screen.width;
 const jdsbj_next = document.querySelector("#jdsbj_next");
 const jdsbj = document.querySelector("#jdsbj_1");
-let menu = document.querySelector('#menu-bars');
-let navbar = document.querySelector('.navbar');
 
-menu.onclick = () =>{
-  menu.classList.toggle('fa-times');
-  navbar.classList.toggle('active');
-  searchIcon.classList.remove('fa-times');
-  searchForm.classList.remove('active');
-}
-
-let searchIcon = document.querySelector('#search-icon');
-let searchForm = document.querySelector('.search-form');
-
-searchIcon.onclick = () =>{
-  searchIcon.classList.toggle('fa-times');
-  searchForm.classList.toggle('active');
-  menu.classList.remove('fa-times');
-  navbar.classList.remove('active');
-}
-
-window.onscroll = () =>{
-  menu.classList.remove('fa-times');
-  navbar.classList.remove('active');
-  searchIcon.classList.remove('fa-times');
-  searchForm.classList.remove('active');
-}
 
 
 let a = 1;
