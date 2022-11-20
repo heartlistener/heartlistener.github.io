@@ -136,6 +136,7 @@ function change_words(){
     let words_c = Math.floor(Math.random()*(words_n+1));
 
     switch(words_c){
+      
         case 0:
             words1.innerHTML='<p>principle n.</p><p>原则</p>';
             words2.innerHTML='<p>principal adj.</p><p>主要的</p>';
