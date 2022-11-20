@@ -447,9 +447,9 @@ let allMusic =[
       if (totalSec < 10) {
         totalSec = '0' + totalSec;
       }
-      liAudioDuration.innerText = `${totalMin}:${totalSec}`;
-      // 将每首歌的时长保留到标签上，后续切歌用于回写音乐时长，从Playing回写
-      liAudioDuration.setAttribute('t-duration', `${totalMin}:${totalSec}`);
+       liAudioDuration.innerText = `${totalMin}:${totalSec}`;
+       // 将每首歌的时长保留到标签上，后续切歌用于回写音乐时长，从Playing回写
+       liAudioDuration.setAttribute('t-duration', `${totalMin}:${totalSec}`);
     });  
   
   }
