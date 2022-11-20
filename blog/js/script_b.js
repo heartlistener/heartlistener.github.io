@@ -1,25 +1,3 @@
-
-let menu = document.querySelector('#menu-bars');
-let navbar = document.querySelector('.navbar');
-
-menu.onclick = () =>{
-  menu.classList.toggle('fa-times');
-  navbar.classList.toggle('active');
-  searchIcon.classList.remove('fa-times');
-  searchForm.classList.remove('active');
-}
-
-let searchIcon = document.querySelector('#search-icon');
-let searchForm = document.querySelector('.search-form');
-
-
-
-window.onscroll = () =>{
-  menu.classList.remove('fa-times');
-  navbar.classList.remove('active');
-}
-
-
 //welcome to my secret place
 const text_l = document.querySelector('#text_1')
 const text1 = 'Welcome to My Secret Place!'
@@ -36,7 +14,7 @@ function writeText() {
   }
   setTimeout(writeText, speed_1)
 }
-//·ÅÓ³ÊÒ
+//æ”¾æ˜ å®¤
 let list = document.querySelector(".list_img");
 let box = document.querySelector(".box_img");
 let left_img = document.querySelector("#left_img");
