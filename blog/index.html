@@ -4,13 +4,15 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>LMXZ's blog</title>
+    <title>LMXZ's Blog</title>
+    <meta http-equiv="Content-Security-Policy" content="upgrade-insecure-requests"><!--内容内http升级https-->
     <!-- font awesome cdn link  -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
     <!-- custom css file link  -->
     <link rel="stylesheet" href="css/style.css">
-    <link rel="icon" href="../picture/web_icon.png" sizes="16x16">
-    <link rel="stylesheet" href="css/style_p.css" />
+    <link rel="icon" href="https://i.imgtg.com/2022/11/19/tfy0l.png" sizes="16x16">
+    <link rel="stylesheet" href="css/style_p.css"/>
+    <link rel="stylesheet" href="css/style_nav.css">
 </head>
 <body>
 
@@ -20,10 +22,11 @@
     <a href="#" class="logo"><span>Frank</span>Lee's Blog</a>
 
     <nav class="navbar">
-        <a href="#new">最新</a>
-        <a href="../index.html">导航页</a>
-        <a href="https://flowus.cn/sharing/share/14d972c9-ded3-45de-9869-4718b6220a43">杂记</a>
+        <a href="#">主页</a>
+        <a href="life.html">生活</a>
+        <a href="https://flowus.cn/sharing/share/14d972c9-ded3-45de-9869-4718b6220a43">学习</a>
         <a href="blank.html">建设中</a>
+        <a href="../index.html">导航页</a>
     </nav>
 
     <div class="icons">
@@ -41,13 +44,13 @@
 <!-- header section ends -->
 
 <!-- banner section starts  -->
-
+<div id = "top"></div>
 <section class="banner" id="banner">
 
     <div class="content">
         <h3>welcome to my blog</h3>
-        <p>Do you like the Yu-Gi-Oh or Pokemon? Those are my favorites</p>
-        <a href="#tags" class="btn">Go to the Tags of My likes </a>
+        <p>Here I will share with you what interests me, as well as share with you some of the things that have been propping me up. </p>
+        <a href="#tags" class="btn">Go to the Tags of My likes</a>
     </div>
 
 </section>
@@ -222,6 +225,7 @@
             <p class="text">我很喜欢其中的一段话，“您从那个苦地方出来，如果还有愤怒憎恶别人的心，那您真是值得可怜的；如果您怀着善心、仁爱、和平的思想，那您比我们中的任何人都还高贵些”</p>
             <p class="text">这个文章告诉了我一件很重要的事，一个曾经坠入深渊的人，如果他能彻底悔悟，就比从未进入深渊的人，都要更伟大。我也希望我们每一个人都能意识到“自己脚下的40苏硬币”，意识到“两个银质烛台”，现实中可能没有“主教”一样的人帮助我们，但是我们自己也要真诚的对待自己。</p>
         </div>
+
     </div>
 
 
@@ -242,6 +246,7 @@
         </div>
 
         <div class="box" id="tags">
+            <div id = "bottom"></div>
             <h3 class="title">Tags of My likes</h3>
             <div class="tags">
                 <a href="#">Master Duel</a>
@@ -354,10 +359,21 @@
 </section>
 
 <!-- footer section ends -->
-
-
+<div class="float_btn">
+    <div class="fbtn_1">
+        <a href="#top">
+        <img src="images/top.png">
+        </a>
+    </div>
+    <div class="fbtn_2">
+        <a href="#bottom">
+        <img src="images/down.png">
+        </a>
+    </div>
+</div>
 <!-- custom js file link  -->
 <script src="js/script.js"></script>
 <script src="js/script_p.js"></script>
+<script src="js/script_all.js"></script>
 </body>
 </html>
