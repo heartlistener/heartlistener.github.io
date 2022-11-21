@@ -128,7 +128,7 @@ hbtn.addEventListener("click",change_h);
 //words
 
 
-let words_n = 26;
+let words_n = 49;
 change_words();
 setInterval(change_words, 5000); 
 words_btn.addEventListener("click",change_words);
@@ -223,7 +223,7 @@ function change_words(){
             break;
         case 21: 
             words1.innerHTML='<p>strife n.</p><p>冲突</p>';
-            words2.innerHTML='<p>stifle v</p><p>使窒息,抑制</p>';
+            words2.innerHTML='<p>stifle v.</p><p>使窒息,抑制</p>';
             break;
         case 22: 
             words1.innerHTML='<p>declaim v.</p><p>声明</p>';
@@ -244,6 +244,98 @@ function change_words(){
         case 26: 
             words1.innerHTML='<p>perplex v.</p><p>使迷惑</p>';
             words2.innerHTML='<p>complex adj.</p><p>复杂的</p>';
+            break;
+        case 27: 
+            words1.innerHTML='<p>propose v.</p><p>建议</p>';
+            words2.innerHTML='<p>purpose n.</p><p>目的</p>';
+            break;
+        case 28: 
+            words1.innerHTML='<p>stimulate v.</p><p>促进</p>';
+            words2.innerHTML='<p>stipulate v.</p><p>规定</p>';
+            break;
+        case 29: 
+            words1.innerHTML='<p>wary adj.</p><p>小心的</p>';
+            words2.innerHTML='<p>scramble adj./v.</p><p>疲劳的/使疲劳</p>';
+            break;
+        case 30:
+            words1.innerHTML='<p>praise v.</p><p>称赞</p>';
+            words2.innerHTML='<p>appraise v.</p><p>评价,鉴定</p>';
+            break;
+        case 31: 
+            words1.innerHTML='<p>excerpt n./v.</p><p>摘录,节选</p>';
+            words2.innerHTML='<p>except v.</p><p>把…除外</p>';
+            break;
+        case 32: 
+            words1.innerHTML='<p>tract n.</p><p>地带</p>';
+            words2.innerHTML='<p>track n.</p><p>痕迹</p>';
+            break;
+        case 33: 
+            words1.innerHTML='<p>rrefute v.</p><p>反驳/否认</p>';
+            words2.innerHTML='<p>refuse v.</p><p>拒绝</p>';
+            break;
+        case 34: 
+            words1.innerHTML='<p>shatter v.</p><p>打碎</p>';
+            words2.innerHTML='<p>shutter n./v.</p><p>(装)百叶窗</p>';
+            break;
+        case 35: 
+            words1.innerHTML='<p>retain v..</p><p>保持/保留</p>';
+            words2.innerHTML='<p>detain v.</p><p>拘留/扣留</p>';
+            break;
+        case 36: 
+            words1.innerHTML='<p>grin n./v.</p><p>咧嘴笑</p>';
+            words2.innerHTML='<p>grim adj.</p><p>冷酷的/残忍的</p>';
+            break;
+        case 37: 
+            words1.innerHTML='<p>flutter n./v.</p><p>振动,颤动</p>';
+            words2.innerHTML='<p>flatter v.</p><p>奉承,讨好</p>';
+            break;
+        case 38: 
+            words1.innerHTML='<p>constrain v.</p><p>约束</p>';
+            words2.innerHTML='<p>restrain v.</p><p>抑制,阻止</p>';
+            break;
+        case 39: 
+            words1.innerHTML='<p>certian adj.</p><p>肯定的,可靠的</p>';
+            words2.innerHTML='<p>ascertain v.</p><p>查明</p>';
+            break;
+        case 40:
+            words1.innerHTML='<p>segregation n.</p><p>隔离</p>';
+            words2.innerHTML='<p>aggregation n.</p><p>集合</p>';
+            break;
+        case 41: 
+            words1.innerHTML='<p>compliment n./v.</p><p>赞美,称赞</p>';
+            words2.innerHTML='<p>complement n./v.</p><p>补充,补足</p>';
+            break;
+        case 42: 
+            words1.innerHTML='<p>counsel n./v.</p><p>建议,劝告,律师</p>';
+            words2.innerHTML='<p>council n.</p><p>痕委员会,理事会</p>';
+            break;
+        case 43: 
+            words1.innerHTML='<p>dairy adj./n.</p><p>奶制的/牛奶厂</p>';
+            words2.innerHTML='<p>diary n.</p><p>日记</p>';
+            break;
+        case 44: 
+            words1.innerHTML='<p>aptitude n.</p><p>天资</p>';
+            words2.innerHTML='<p>attitude n.</p><p>态度</p>';
+            break;
+        case 45: 
+            words1.innerHTML='<p>rigorous adj.</p><p>严厉的</p>';
+            words2.innerHTML='<p>vigorous adj.</p><p>精力充沛的</p>';
+            break;
+        case 46: 
+            words1.innerHTML='<p>commerce n.</p><p>商业</p>';
+            words2.innerHTML='<p>commence v.</p><p>开始/着手</p>';
+            break;
+        case 47: 
+            words1.innerHTML='<p>aboard adv.</p><p>在船上</p>';
+            words2.innerHTML='<p>abroad v.</p><p>在国外</p>';
+            break;
+        case 48: 
+            words1.innerHTML='<p>probe v.</p><p>探测,盘问</p>';
+            words2.innerHTML='<p>grope v.</p><p>搜索,搜寻</p>';
+            break;
+        case 49: 
+            words1.innerHTML='<p>disguise n./v.</p><p>假装</p>';
+            words2.innerHTML='<p>disgust n./v.</p><p>厌恶/使厌恶</p>';
             break;
     }
 }
