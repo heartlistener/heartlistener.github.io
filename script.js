@@ -12,7 +12,7 @@ let c = 0;
 const change_bg =()=>{
     c = c+1;
     if (c%2 == 1){
-        rt.setProperty("--body_bg","url(picture/backgrand2.png)");
+        rt.setProperty("--body_bg","url(https://pic.imgdb.cn/item/637dc39c16f2c2beb1d60faa.png)");
         rt.setProperty("--header_bg","rgb(48,80,128)");
         rt.setProperty("--font_color","rgb(208,208,208)");
         rt.setProperty("--header_color","invert(0.85)");
@@ -21,7 +21,7 @@ const change_bg =()=>{
         rt.setProperty("--head_bg","rgb(48,80,128)");
     }
     else{
-        rt.setProperty("--body_bg","url(picture/backgrand.png)");
+        rt.setProperty("--body_bg","url(https://pic.imgdb.cn/item/637dc39b16f2c2beb1d60d5f.png)");
         rt.setProperty("--header_bg","#fbfbfb");
         rt.setProperty("--font_color","#38a7ff");
         rt.setProperty("--header_color","invert(0%)");
