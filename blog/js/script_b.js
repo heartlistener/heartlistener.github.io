@@ -23,7 +23,7 @@ list.innerHTML += list.innerHTML;
 
 let left = 0;
 
-let n =34;
+let n =33;
 let speed = 3;
 
 let timer;
