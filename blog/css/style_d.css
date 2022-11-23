@@ -38,27 +38,39 @@
 }
 /* 为每一个卡片设置初始化位置和旋转角度 */
 .card:nth-child(1){
-    transform: rotateY(0) translateZ(700px);
+    transform: rotateY(0) translateZ(207px);
 }
 .card:nth-child(2){
-    transform: rotateY(120deg) translateZ(700px);
+    transform: rotateY(72deg) translateZ(207px);
 }
 .card:nth-child(3){
-    transform: rotateY(240deg) translateZ(700px);
+    transform: rotateY(144deg) translateZ(207px);
+}
+.card:nth-child(4){
+    transform: rotateY(216deg) translateZ(207px);
+}
+.card:nth-child(5){
+    transform: rotateY(288deg) translateZ(207px);
 }
 
 /* 定义动画 */
 @keyframes cardRotate {
-    0%,20%{
-        transform: translateZ(-700px) rotateY(0);
+    0%{
+        transform: translateZ(-207px) rotateY(0);
     }
-    45%{
-        transform: translateZ(-700px) rotateY(-120deg);
+    20%{
+        transform: translateZ(-207px) rotateY(-72deg);
     }
-    75%{
-        transform: translateZ(-700px) rotateY(-240deg);
+    40%{
+        transform: translateZ(-207px) rotateY(-144deg);
+    }
+    60%{
+        transform: translateZ(-207px) rotateY(-216deg);
+    }
+    80%{
+        transform: translateZ(-207px) rotateY(-288deg);
     }
     100%{
-        transform: translateZ(-700px) rotateY(-360deg);
+        transform: translateZ(-207px) rotateY(-360deg);
     }
 }
