@@ -5,7 +5,7 @@
     padding:0;
 }
 :root{
-    --body_bg:url(picture/backgrand.png);
+    --body_bg:linear-gradient(rgb(213,226,226),rgb(190,224,226));
     --header_bg:#fbfbfb;
     --font_color:#38a7ff;
     --header_color:invert(0%);
