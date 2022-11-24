@@ -12,16 +12,16 @@ let c = 0;
 const change_bg =()=>{
     c = c+1;
     if (c%2 == 1){
-        rt.setProperty("--body_bg","url(https://pic.imgdb.cn/item/637dc39c16f2c2beb1d60faa.png)");
-        rt.setProperty("--header_bg","rgb(48,80,128)");
+        rt.setProperty("--body_bg","linear-gradient(rgb(81,151,205),rgb(15,59,97))");
+        rt.setProperty("--header_bg","linear-gradient(rgb(37,82,124),rgb(49,96,142))");
         rt.setProperty("--font_color","rgb(208,208,208)");
         rt.setProperty("--header_color","invert(0.85)");
         rt.setProperty("--border_color","rgb(128,128,128)");
         rt.setProperty("--icon_color","invert(1)");
-        rt.setProperty("--head_bg","rgb(48,80,128)");
+        rt.setProperty("--head_bg","linear-gradient(rgb(37,82,124),rgb(49,96,142))");
     }
     else{
-        rt.setProperty("--body_bg","url(https://pic.imgdb.cn/item/637dc39b16f2c2beb1d60d5f.png)");
+        rt.setProperty("--body_bg","linear-gradient(rgb(213,226,226),rgb(187,227,227))");
         rt.setProperty("--header_bg","#fbfbfb");
         rt.setProperty("--font_color","#38a7ff");
         rt.setProperty("--header_color","invert(0%)");
