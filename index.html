@@ -4,13 +4,32 @@
         <meta charset="UTF-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name=“viewport” content="width=device-width, initial-scale=1.0"> 
-        <link rel="stylesheet" href="style.css"> 
+        <link rel="stylesheet" href="style.css">
+        <link rel="stylesheet" href="load.css"> 
         <title>
             LMXZ_Main_Page
         </title>
         <link rel="icon" href="https://pic.imgdb.cn/item/637dc37816f2c2beb1d5dcd1.png" sizes="16x16">
+        <style>
+     
+        </style>
     </head>
     <body>
+        <div id="loading-box">
+            <div class="loading-left-bg"></div>
+            <div class="loading-right-bg"></div>
+            <div class="spinner-box">
+                <div class="loader">
+                    <div class="inner one"></div>
+                    <div class="inner two"></div>
+                    <div class="inner three"></div>
+                </div>
+                <div class="loading-word">
+                    <p class="loading-title" id="loading-title">网页正在加载中</p>
+                    <span id="loading-text">请耐心等待</span>
+                </div>
+            </div>
+        </div>
         <div class="box">
             <div class="header">
                 <div class="caption">
@@ -109,6 +128,16 @@
                 <p>网站地址:lmxz.eu.org 有问题请发邮件至1078897881@qq.com</p>
             </div>-->
         </div>
+    <script>
+        let loadingBox = document.querySelector("#loading-box");
+        window.addEventListener('load', function () {
+        //载入动画
+        loadingBox.classList.add("loaded");
+        bg.style.cssText = "transform: scale(1);filter: blur(0px);transition: ease 1.5s";
+        cover.style.cssText = "opacity: 1;transition: ease 1.5s";
+        section.style.cssText = "transform: scale(1);opacity: 1;filter: blur(0px)";
+    }, false)
+    </script>
     <script src="script.js"></script>
     </body>
 </html>
