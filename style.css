@@ -24,7 +24,9 @@ a{text-decoration:none}
 a:hover{text-decoration:none}
 html,body{
     height:100%;
+    font-size: 65%;
 }
+
 body{
     background:var(--body_bg);
     background-repeat:no-repeat;
@@ -206,7 +208,6 @@ body{
 }
 }
 @media screen and (max-device-width:1200px) {
-
     .container{
         width:430px;
         height:200px;
@@ -272,6 +273,7 @@ body{
         margin:0;
         padding:0;
     }
+  
     a{text-decoration:none}
     a:hover{text-decoration:none}
     html,body{
