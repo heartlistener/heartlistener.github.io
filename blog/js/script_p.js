@@ -16,7 +16,6 @@ let allMusic =[
       artist:"Marie Miller",
     },
     {
-
       src : "http://music.163.com/song/media/outer/url?id=857896",
       name :"ALittle Story",
       artist:"Valentin",
@@ -32,11 +31,6 @@ let allMusic =[
     artist:"LiSA",
     },
     {
-    src : "http://music.163.com/song/media/outer/url?id=1885361957",
-    name : "Downtown(Downtempo)",
-    artist:"Anya Taylor-Joy",
-    },
-    {
     src:"http://music.163.com/song/media/outer/url?id=29803675",
     name : "Fight Song",
     artist:"Rachel Platten",
@@ -45,6 +39,11 @@ let allMusic =[
     src:"http://music.163.com/song/media/outer/url?id=440353010",
     name : "Lov3 Ngẫu Hứng",
     artist:"Hoaprox",
+    },
+    {  
+      src : "http://music.163.com/song/media/outer/url?id=25901050.mp3",
+      name : "Liebesleid",
+      artist:"何红英,姚珏",
     },
     {
     src:"../newplay/music/Hope",
@@ -82,11 +81,6 @@ let allMusic =[
     artist:"Trent Dabbs",
     },
     {
-    src:"http://music.163.com/song/media/outer/url?id=1441098283",
-    name : "Skyline",
-    artist:"Madism",
-    },
-    {
     src:"http://music.163.com/song/media/outer/url?id=521416693",
     name : "So Far Away",
     artist:"Martin Garrix、David Guetta",
@@ -112,9 +106,19 @@ let allMusic =[
     artist:"中川翔子",
     },
     {
+    src:"http://music.163.com/song/media/outer/url?id=22782025.mp3",
+    name : "美しきもの",
+    artist:"Sound Horizon",
+    },
+    {
     src:"../newplay/music/大人",
     name : "大人",
     artist:"Sondia", 
+    },
+    {  
+      src : "../newplay/music/叹云兮",
+      name : "叹云兮",
+      artist:"鞠婧祎",
     },
     {
     src:"../newplay/music/晴天",
@@ -130,6 +134,11 @@ let allMusic =[
     src:"http://music.163.com/song/media/outer/url?id=28188427", 
     name : "棠梨煎雪",
     artist:"银临", 
+    },
+    {
+    src:"http://music.163.com/song/media/outer/url?id=34341360.mp3",
+    name : "梦中的婚礼",
+    artist:"Richard Clayderman", 
     },
     {
     src:"http://music.163.com/song/media/outer/url?id=1338695683",
