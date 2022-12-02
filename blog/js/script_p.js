@@ -121,7 +121,7 @@ let allMusic =[
       artist:"鞠婧祎",
     },
     {
-    src:"https://freetyst.nf.migu.cn/public%2Fproduct9th%2Fproduct45%2F2022%2F05%2F2713%2F2022%E5%B9%B405%E6%9C%8827%E6%97%A509%E7%82%B910%E5%88%86%E7%B4%A7%E6%80%A5%E5%86%85%E5%AE%B9%E5%87%86%E5%85%A5%E7%BA%B5%E6%A8%AA%E4%B8%96%E4%BB%A326%E9%A6%96844303%2F%E5%85%A8%E6%9B%B2%E8%AF%95%E5%90%AC%2FMp3_64_22_16%2F60054704576131331.mp3?Key=ea972aefd111d1d6&Tim=1669971844657&channelid=01&msisdn=a958cc7da7aa4f0392c115995a3004aa",
+    src:"../newplay/music/晴天",
     name : "晴天",
     artist:"周杰伦", 
     },
