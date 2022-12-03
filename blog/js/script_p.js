@@ -265,6 +265,10 @@ let allMusic =[
   function nextMusic() {
     //   改变当前值
     musicIndex++;
+    if (repeatBtn.className.split(' ')[1] == 'fa-random')
+    {
+      musicIndex = Math.floor(Math.random()*(allMusic.length))//不知道是不是用+1
+    }
     //   边界判定
     musicIndex > allMusic.length ? (musicIndex = 1) : (musicIndex = musicIndex);
     //   重新加载音乐
@@ -279,6 +283,10 @@ let allMusic =[
   function prevMusic() {
     //   改变当前值
     musicIndex--;
+    if (repeatBtn.className.split(' ')[1] == 'fa-random')
+    {
+      musicIndex = Math.floor(Math.random()*(allMusic.length))//不知道是不是用+1
+    }
     //   边界判定
     musicIndex < 1 ? (musicIndex = allMusic.length) : (musicIndex = musicIndex);
     //   重新加载音乐
