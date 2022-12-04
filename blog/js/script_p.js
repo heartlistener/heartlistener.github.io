@@ -218,6 +218,7 @@ const wrapper = document.querySelector('.wrapper'),
 //   正在播放的音乐序号
 let musicIndex = 1;
 
+
 window.addEventListener('load', () => {
   loadMusic(musicIndex);
   // 重新计算列表样式
@@ -267,11 +268,11 @@ function nextMusic() {
   musicIndex++;
   if (repeatBtn.className.split(' ')[1] == 'fa-random')
   {
-    if (musicIndex>=32)
+    musicIndex = Math.floor(Math.random()*(allMusic.length))//不知道是不是用+1
+    if (musicIndex<=allMusic.length && musicIndex>=allMusic.length-2)
     {
       musicIndex = 24; 
     }
-    musicIndex = Math.floor(Math.random()*(allMusic.length))//不知道是不是用+1
   }
   //   边界判定
   musicIndex > allMusic.length ? (musicIndex = 1) : (musicIndex = musicIndex);
@@ -289,11 +290,11 @@ function prevMusic() {
   musicIndex--;
   if (repeatBtn.className.split(' ')[1] == 'fa-random')
   {
-    if (musicIndex>=32)
+    musicIndex = Math.floor(Math.random()*(allMusic.length))//不知道是不是用+1
+    if (musicIndex<=allMusic.length && musicIndex>=allMusic.length-2)
     {
       musicIndex = 24; 
     }
-    musicIndex = Math.floor(Math.random()*(allMusic.length))//不知道是不是用+1
   }
   //   边界判定
   musicIndex < 1 ? (musicIndex = allMusic.length) : (musicIndex = musicIndex);
