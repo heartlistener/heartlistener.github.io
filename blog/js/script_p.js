@@ -86,7 +86,7 @@ let allMusic =[
     artist:"Martin Garrix、David Guetta",
     },
     {
-    src:"../newplay/music/The Calling",
+    src:"https://win-web-nf01-sycdn.kuwo.cn/834c8cf30de42887038bdfa2ed8b0647/638bedb7/resource/n2/69/26/341309005",
     name : "The Calling",
     artist:"TheFatRat、Laura Brehm", 
     },
@@ -121,7 +121,7 @@ let allMusic =[
       artist:"鞠婧祎",
     },
     {
-    src:"https://cd-sycdn.kuwo.cn/4182265984b2bf1ca44b2ae4bba595e0/638be941/resource/n2/11/25/2974299119",
+    src:"http://sy.sycdn.kuwo.cn/5bd24852e3ea5564b4664c59e30def90/638bed4b/resource/n2/99/30/814703912",
     name : "晴天",
     artist:"周杰伦", 
     },
