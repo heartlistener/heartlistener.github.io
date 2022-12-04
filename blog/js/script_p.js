@@ -21,8 +21,8 @@ let allMusic =[
       artist:"Valentin",
     },
     {
-    src : "https://gc-sycdn.kuwo.cn/9b8f8b3725b18ffad79bc0fb1305d5e2/638be91d/resource/n3/50/16/2472087528",
-    name : "Back To December",
+    src : "http://music.163.com/song/media/outer/url?id=1917549208",
+    name : "Love Story",
     artist:"Taylor Swift",
     },
     {
@@ -41,12 +41,12 @@ let allMusic =[
     artist:"Hoaprox",
     },
     {  
-      src : "http://music.163.com/song/media/outer/url?id=25901050.mp3",
+      src : "http://music.163.com/song/media/outer/url?id=25901050",
       name : "Liebesleid",
       artist:"何红英,姚珏",
     },
     {
-    src:"https://win-web-nf01-sycdn.kuwo.cn/7d2d5e2d3f52961e69c08e8f77289f3b/638be3ee/resource/n1/97/57/112565051",
+    src:"https://other-web-nf01-sycdn.kuwo.cn/49b44b422c33d667a9f25156b2f5699f/638bfabc/resource/n1/97/57/112565051",
     name : "Hope",
     artist:"安室奈美恵",
     },
@@ -111,7 +111,7 @@ let allMusic =[
     artist:"Sound Horizon",
     },
     {
-    src:"https://win-web-nf01-sycdn.kuwo.cn/dc5bd35ecab815b61fd5cb97a1cf3cc4/638be2b4/resource/n3/50/54/2822262264",
+    src:"../newplay/music/大人",
     name : "大人",
     artist:"Sondia", 
     },
@@ -121,12 +121,12 @@ let allMusic =[
       artist:"鞠婧祎",
     },
     {
-    src:"http://sy.sycdn.kuwo.cn/5bd24852e3ea5564b4664c59e30def90/638bed4b/resource/n2/99/30/814703912",
+    src:"../newplay/music/晴天",
     name : "晴天",
     artist:"周杰伦", 
     },
     {
-    src:"https://win-web-rh01-sycdn.kuwo.cn/190ba864a6dda1c92f121a234355bbe8/638be5da/resource/n3/70/31/986931065",
+    src:"http://music.163.com/song/media/outer/url?id=412785355",
     name : "神の怒り",
     artist:"池頼広", 
     },
@@ -146,7 +146,7 @@ let allMusic =[
     artist:"吴青峰",
     },
     {
-    src:"https://lr-sycdn.kuwo.cn/14264b68491bd0d811075fd115a69e8d/638be346/resource/n2/76/16/701894169", 
+    src:"../newplay/music/天空中闪烁着光", 
     name : "天空中闪烁着光",
     artist:"铃汐", 
     },
@@ -166,7 +166,7 @@ let allMusic =[
     artist:"排骨教主", 
     },
     {
-    src:"https://other-web-nf01-sycdn.kuwo.cn/a8f2cdf3c3fd275be2b20b6c68c033cc/638be376/resource/n2/45/79/2858362812",
+    src:"../newplay/music/有彩虹",
     name : "有彩虹",
     artist:"빈센트 블루", 
     },
