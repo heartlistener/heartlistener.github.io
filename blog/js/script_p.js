@@ -217,7 +217,7 @@ const wrapper = document.querySelector('.wrapper'),
 
 //   正在播放的音乐序号
 let musicIndex = 1;
-
+let slowm = 2;
 
 window.addEventListener('load', () => {
   loadMusic(musicIndex);
@@ -269,9 +269,9 @@ function nextMusic() {
   if (repeatBtn.className.split(' ')[1] == 'fa-random')
   {
     musicIndex = Math.floor(Math.random()*(allMusic.length))//不知道是不是用+1
-    if (musicIndex<=allMusic.length && musicIndex>=allMusic.length-2)
+    if (musicIndex<=allMusic.length && musicIndex>=allMusic.length-slowm)
     {
-      musicIndex = 24; 
+      musicIndex = 23; 
     }
   }
   //   边界判定
@@ -291,9 +291,9 @@ function prevMusic() {
   if (repeatBtn.className.split(' ')[1] == 'fa-random')
   {
     musicIndex = Math.floor(Math.random()*(allMusic.length))//不知道是不是用+1
-    if (musicIndex<=allMusic.length && musicIndex>=allMusic.length-2)
+    if (musicIndex<=allMusic.length && musicIndex>=allMusic.length-slowm)
     {
-      musicIndex = 24; 
+      musicIndex = 23; 
     }
   }
   //   边界判定
@@ -412,9 +412,9 @@ mainAudio.addEventListener('ended', () => {
       break;
     case 'fa-random':
       //  创造一个随机数,0-1之间的随机数+1取整
-      let randindex = Math.floor(Math.random() * allMusic.length + 1);
+      let randindex = Math.floor(Math.random() * allMusic.length - slowm);
       do {
-        randindex = Math.floor(Math.random() * allMusic.length + 1);
+        randindex = Math.floor(Math.random() * allMusic.length - slowm);
       } while (randindex == musicIndex);
       musicIndex = randindex;
       loadMusic(musicIndex);
