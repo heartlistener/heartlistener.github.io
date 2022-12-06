@@ -46,11 +46,6 @@ let allMusic =[
     artist:"何红英,姚珏",
   },
   {
-  src:"https://other-web-nf01-sycdn.kuwo.cn/49b44b422c33d667a9f25156b2f5699f/638bfabc/resource/n1/97/57/112565051",
-  name : "Hope",
-  artist:"安室奈美恵",
-  },
-  {
   src:"http://music.163.com/song/media/outer/url?id=2414984",
   name : "Near or Far",
   artist:"Carissa Rae",
@@ -170,6 +165,11 @@ let allMusic =[
     name : "大人",
     artist:"Sondia", 
   },
+  {
+    src:"../newplay/music/Hope",
+    name : "Hope",
+    artist:"安室奈美恵",
+  },
 ];
 
 //events object
@@ -217,7 +217,7 @@ const wrapper = document.querySelector('.wrapper'),
 
 //   正在播放的音乐序号
 let musicIndex = 1;
-let slowm = 2;
+let slowm = 3;
 
 window.addEventListener('load', () => {
   loadMusic(musicIndex);
@@ -271,7 +271,7 @@ function nextMusic() {
     musicIndex = Math.floor(Math.random()*(allMusic.length))//不知道是不是用+1
     if (musicIndex<=allMusic.length && musicIndex>=allMusic.length-slowm)
     {
-      musicIndex = 23; 
+      musicIndex = 22; 
     }
   }
   //   边界判定
@@ -293,7 +293,7 @@ function prevMusic() {
     musicIndex = Math.floor(Math.random()*(allMusic.length))//不知道是不是用+1
     if (musicIndex<=allMusic.length && musicIndex>=allMusic.length-slowm)
     {
-      musicIndex = 23; 
+      musicIndex = 22; 
     }
   }
   //   边界判定
