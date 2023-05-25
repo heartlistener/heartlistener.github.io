@@ -1,0 +1,286 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+    <id>https://heartlistener.github.io</id>
+    <title>聆感</title>
+    <updated>2023-05-25T09:06:00.933Z</updated>
+    <generator>https://github.com/jpmonette/feed</generator>
+    <link rel="alternate" href="https://heartlistener.github.io"/>
+    <link rel="self" href="https://heartlistener.github.io/atom.xml"/>
+    <subtitle>记录所见所感，分享知识心得</subtitle>
+    <logo>https://heartlistener.github.io/images/avatar.png</logo>
+    <icon>https://heartlistener.github.io/favicon.ico</icon>
+    <rights>All rights reserved 2023, 聆感</rights>
+    <entry>
+        <title type="html"><![CDATA[工作流分享]]></title>
+        <id>https://heartlistener.github.io/post/gong-zuo-liu-fen-xiang/</id>
+        <link href="https://heartlistener.github.io/post/gong-zuo-liu-fen-xiang/">
+        </link>
+        <updated>2023-05-25T07:56:51.000Z</updated>
+        <summary type="html"><![CDATA[<ul>
+<li>通过连续几天的考试，发现了之前学习中的问题</li>
+<li>我打算从记笔记的用途，和用什么记笔记两个方面进行总结</li>
+</ul>
+]]></summary>
+        <content type="html"><![CDATA[<ul>
+<li>通过连续几天的考试，发现了之前学习中的问题</li>
+<li>我打算从记笔记的用途，和用什么记笔记两个方面进行总结</li>
+</ul>
+<!-- more -->
+<p><strong>为什么要记笔记？</strong><br>
+通过我对自己和其他人记笔记的场合进行观察，大部分人记笔记只是因为知识点太多太零散，想要<strong>总结一下</strong>，即对已经学过的知识点进行梳理归纳，便于后续的学习和巩固<br>
+这样记笔记可以使得我们对知识的整体框架有更好的了解，便于我们记忆与应用知识，但这些都有一个前提，就是<strong>需要常常复习</strong>，<strong>或者需要更进一步的学习</strong>，否则就会慢慢被打入冷宫<br>
+还有一种笔记是记忆性的笔记，比较<strong>侧重于提醒</strong>，这种笔记不必记得很成体系，但是需要更方便的记录，以适应<strong>随时记录</strong>的需求<br>
+在此还要<strong>提醒</strong>大家，如果你要将一个知识点梳理，尽量还是在对它有一定的了解后，用自己的语言记录，避免照抄课本，需要明白一点，<strong>笔记是索引不是内容</strong></p>
+<p><strong>用什么记笔记？</strong><br>
+我知道大多数人都曾经是使用笔记本记，纸质的笔记更能让我们感受到知识的氛围，但是，最大的缺点就是我们不能总是随身携带笔记本，还有就是手写的效率太低，有时候字迹太差的同学，甚至不愿意在回看它。<br>
+我比较喜欢通过计算机软件或者移动端APP来记笔记，我比较喜欢多端同步的记笔记方式，我之前尝试过onenote 幕布 享做笔记 Notion和 flomo笔记 他们各自有各自的特点，现在我除了onenote之外其他的都在用(onenote的表格嵌套很优秀，但是不是苹果移动端用不了所以pass)<br>
+首先，<strong>随手记笔记</strong>，像备忘录一样，我推荐<strong>flomo</strong>你只需要简单的#标题/子标题 然后将要记录的内容直接输入即可，比较快捷的归纳，和优秀的微信联动以及多端同步，使得它成为我紧急记录和记录奇思妙想的最佳选择。<img src="https://cloud.lmxz.repl.co/d/%E8%87%AA%E7%94%A8/%E5%A4%96%E9%93%BE/%E5%9B%BE%E7%89%87/Screenshot_20230525_162345_com.flomo.app.jpg?sign=ovNRy8t74yAGKDjhO2BHZlDxrkE2H6MzQouKeHnX4MY=:0" alt="" loading="lazy"><br>
+其次，<strong>计划及任务的记录</strong>，我通常通过<strong>notion</strong>记录我今天的计划和日记等，将每天的成果和任务记录在notion，我认为是一个很好的选择，但是，美中不足是notion的每页笔记好像只能用10mb，而且在中国由于墙的作用的网络不太好<img src="https://cloud.lmxz.repl.co/d/%E8%87%AA%E7%94%A8/%E5%A4%96%E9%93%BE/%E5%9B%BE%E7%89%87/Screenshot_20230525_164535_notion.id.jpg?sign=6Yb014h4_V5uK3-I7G7Lc4ijvLXpf9x_Xh1yaNDYUjk=:0" alt="" loading="lazy"><br>
+第三，临时梳理思路和临时梳理学习路线等<strong>临时将思路清晰</strong>便于直观了解的时候，我通常用<strong>幕布</strong>，将思路通过列表嵌套的形式写出，然后幕布可以自动将其转换为思维导图，amazing！<img src="https://cloud.lmxz.repl.co/d/%E8%87%AA%E7%94%A8/%E5%A4%96%E9%93%BE/%E5%9B%BE%E7%89%87/Screenshot_20230525_164934_com.mubu.app.jpg?sign=WsUIO1P3ddZeOHNs2FIMLbO5XwT_7vf6niGlVzqDTxo=:0" alt="" loading="lazy"><br>
+第四，对于书籍的学习和<strong>计算较多</strong>，<strong>知识点间关系比较复杂</strong>的笔记，我喜欢先用享做记录，<strong>享做</strong>的无界笔记能方便我涂涂画画一些自己的想法，然后不断修改它，最后将整理好的思路归纳在，obsidian中<img src="https://cloud.lmxz.repl.co/d/%E8%87%AA%E7%94%A8/%E5%A4%96%E9%93%BE/%E5%9B%BE%E7%89%87/Screenshot_20230525_164255_com.newskyer.draw.jpg?sign=PCbNSqxRSy56g9dKptkX1_CCFAJyT72Jty31UMsTyzg=:0" alt="" loading="lazy"><br>
+最后，整体<strong>总结和归纳</strong>的笔记，我首推<strong>obsidian</strong>，大家可以从咸鱼淘宝将onedrive扩容至15G，然后将笔记记录在onedrive文件夹中，手机端通过foldersync可以将onedrive文件夹中的笔记同步在手机中，方便手机浏览，obsidian嵌入了白板、手写板、看板、表格插件，同时双链可以将每页笔记简化，突出知识点联系，同时便于检索笔记。我目前喜欢用白板将知识点的大致框架汇出，然后通过享做梳理内部的小知识点，然后通过表格插件进行梳理.<img src="https://cloud.lmxz.repl.co/d/%E8%87%AA%E7%94%A8/%E5%A4%96%E9%93%BE/%E5%9B%BE%E7%89%87/Screenshot_20230525_165033_md.obsidian.jpg?sign=zmRgV_YbrjOep5HOhB5uri7sBe2tKv210loPEQODaSs=:0" alt="" loading="lazy"> <img src="https://cloud.lmxz.repl.co/d/%E8%87%AA%E7%94%A8/%E5%A4%96%E9%93%BE/%E5%9B%BE%E7%89%87/Screenshot_20230525_165108_md.obsidian.jpg?sign=1CLzgdTohHZFPO07xQd_1dQ89iC0EtKUJdn9G8Y8bpw=:0" alt="" loading="lazy"><br>
+补充一下如果<strong>需要记单词和错题，推荐anki</strong>便于后期的复习<br>
+谢谢大家阅读，如果有问题请下方评论或者，将问题发送至我的邮箱lmxz1258@outlook.com</p>
+]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[我们是否能够笑着谈论自己选择的未来]]></title>
+        <id>https://heartlistener.github.io/post/wo-men-shi-fou-neng-gou-xiao-zhao-tan-lun-zi-ji-xuan-ze-de-wei-lai/</id>
+        <link href="https://heartlistener.github.io/post/wo-men-shi-fou-neng-gou-xiao-zhao-tan-lun-zi-ji-xuan-ze-de-wei-lai/">
+        </link>
+        <updated>2023-04-07T12:58:30.000Z</updated>
+        <summary type="html"><![CDATA[<ul>
+<li>最近又看了一遍ReZero的第18集，从雷姆的话中，我明白了自己对未来的看法是很重要的</li>
+</ul>
+]]></summary>
+        <content type="html"><![CDATA[<ul>
+<li>最近又看了一遍ReZero的第18集，从雷姆的话中，我明白了自己对未来的看法是很重要的</li>
+</ul>
+<!-- more -->
+<p>我们对未来有很多期许，我们也有很多不足，有些时候我们因为各种各样的原因不得不放弃已经规划好的道路。这个时候一个疑问就产生了，新选择的道路是不是对的，我们该不该沿着这条道路走？一个很简单的评判方法是：<br>
+你和你的朋友或者其他关系密切的人谈论你的未来时，能否能露出笑容，如果你选择的道路，不能让你真正的高兴的话，为什么不选择一个能使自己更开心的道路呢？因此，如果你对未来的选择是可以让你高兴的，那么不用想太多了，努力实现你理想的未来就可以了。</p>
+<p>以上就是我的一些见解，很简单，但是我认为这个对我自己很有用处，如果你觉得我说的不对，请在评论区给予纠正，谢谢。</p>
+]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[什么是真正的高兴的事情？]]></title>
+        <id>https://heartlistener.github.io/post/shi-me-shi-zhen-zheng-de-gao-xing-de-shi-qing/</id>
+        <link href="https://heartlistener.github.io/post/shi-me-shi-zhen-zheng-de-gao-xing-de-shi-qing/">
+        </link>
+        <updated>2023-03-17T12:30:46.000Z</updated>
+        <summary type="html"><![CDATA[<ul>
+<li>我们有许多值得高兴的事情，好多人都希望我们成为一个高兴的人</li>
+<li>但是我想说，我们需要选择一个正确的高兴的方式</li>
+</ul>
+]]></summary>
+        <content type="html"><![CDATA[<ul>
+<li>我们有许多值得高兴的事情，好多人都希望我们成为一个高兴的人</li>
+<li>但是我想说，我们需要选择一个正确的高兴的方式</li>
+</ul>
+<!-- more -->
+<pre><code>    这一周我过的很快乐，我现在不再向以前一样只是学习却不知道为了什么，我现在很清楚我的终极目标和贯彻整个人生阶段的需要做的事，所以我现在和以前不同，不再因为担心自己不行而学习了，而是真的想要提升自己。
+    我们有很多值得开心的事情，但是需要分好场合。比如看一些搞笑视频可以很快让我们开心起来，但是我们不能一整天都沉浸在这种东西中。因为这种喜悦是浅显的；我们也可以和好朋友一起散步一起逛街，一起吃饭，谈论一些乱七八糟的话题，我们也会体会到一种喜悦，这种喜悦要高级一些，它是弥漫在许多人的心中的会相互关联和影响，就像水面上的涟漪，但是我认为这种喜悦也不是最高级的，你也不能一直和朋友在一起；我们也可以通过设立一些比较好的，而且有一些难度的目标，当目标达成时，我们会体会到我们付出的辛苦等价甚至更多的喜悦，这种喜悦可能又要高级一些，也更深刻一些，但是我们也不能一直沉浸再其中。
+    所以，喜悦是多方面的，我们高兴的事情也应该是多方面的，我们不能缺少任何一种喜悦，缺少任何一种，我们的生活都是不完整的。
+    简而言之，我们真正高兴的事情是什么不是很重要，重要的是我们需要在不同的正确的场合体会不同维度的喜悦。这样才能真正让我们体会到充实的喜悦。
+</code></pre>
+]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[不要太忙了而忘记了真正重要的事]]></title>
+        <id>https://heartlistener.github.io/post/bu-yao-tai-mang-liao-er-wang-ji-liao-zhen-zheng-chong-yao-de-shi/</id>
+        <link href="https://heartlistener.github.io/post/bu-yao-tai-mang-liao-er-wang-ji-liao-zhen-zheng-chong-yao-de-shi/">
+        </link>
+        <updated>2023-03-10T14:16:48.000Z</updated>
+        <summary type="html"><![CDATA[<ul>
+<li>我总是喜欢沉迷一件事，然后对其他所有事都全然不顾</li>
+<li>但是后来我发现我们要学会放松，只有不那么疲惫我们才能发现一些好的东西</li>
+</ul>
+]]></summary>
+        <content type="html"><![CDATA[<ul>
+<li>我总是喜欢沉迷一件事，然后对其他所有事都全然不顾</li>
+<li>但是后来我发现我们要学会放松，只有不那么疲惫我们才能发现一些好的东西</li>
+</ul>
+<!-- more -->
+<p>我个人认为大学生的主要任务之一，应包括建立一个较为正确的三观，尤其是世界观。虽然，我们在小学，初中和高中都进行了思想教育的课程，但是我们对社会的理解仍然不够，我们对自己的理解也不十分确切。我不知道是不是因为花费了太多时间在学习或者上课上。我们如果不能花费必要的时间去观察世界，探索世界，就不能很好的去理解，因为观察是分析的前提条件，对世界观察的足够清晰，足够全面，我们才能进行正确的分析怎样是对的怎样是错的，我们很有可能只是了解了一部分，便认为这便是世界的全貌，这样我们就很可能形成错误的世界观，可能会对未来的我们产生不好的影响。</p>
+<p>所以，我们需要在大学尝试各种各样的东西，学习各式各样的知识，了解形形色色的人。这些都可以帮助你，从中我们要判断我们自己世界观的对错，所以，经验越多，阅历越多，我们就越有可能找到一个正确的方向。</p>
+<p>因此，不要一直盲目的往前走了，你需要定时检察一下，你走的路对不对，你打算如何处理。</p>
+<p>以上仅代表个人见解，如有异议欢迎下方评论</p>
+]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[认清自己是怎样的，需要什么，然后就开始行动吧]]></title>
+        <id>https://heartlistener.github.io/post/ren-qing-zi-ji-shi-zen-yang-de-xu-yao-shi-me-ran-hou-jiu-kai-shi-xing-dong-ba/</id>
+        <link href="https://heartlistener.github.io/post/ren-qing-zi-ji-shi-zen-yang-de-xu-yao-shi-me-ran-hou-jiu-kai-shi-xing-dong-ba/">
+        </link>
+        <updated>2023-03-03T12:20:27.000Z</updated>
+        <content type="html"><![CDATA[<!-- more -->
+<ul>
+<li>我一直容易犯两个错误，一个是overthing，一个是not start</li>
+<li>因此我认为主要的解决方法就是，认清自己并且立即行动，Just do it！</li>
+</ul>
+<!-- more -->
+<p>我很喜欢做各式各样的计划，还总是担心计划不够完美。因此，每天我都花费很多时间修改计划，但是，我知道我最大的问题是，制定了很好的计划但是不能按时去做。我不知道是不是大家也有同样的想法。</p>
+<p>我是一个喜欢思考却不喜欢行动的人，但是过度思考带来的只是空想，没有什么实际的作用，时间是由很多当下积累起来的，如果不能珍惜当下，享受当下，利用当下的时间，我们就无法取得实质性的进展。因此我认为很重要的一点是要珍视当下。</p>
+<p>我们大学之前大部分的时间都是在学校，没有很多时间去认清世界和认清自己，我们的世界观很可能是不正确的，所以，我们需要通过交流和探索，不断矫正它，然后，找到一个可以奋斗终身的目标，就像达芬奇的蒙娜丽莎一样，很久的时间他都在不断完善它。</p>
+<p>因此，如果你已经认为自己的世界观没有问题，自己的理想没有问题，那么一定不要总是担心自己无法完成，或者不断地指定计划，这些没有错，但是最主要的是要完成计划，Just do it，我认为是我们要时时刻刻提醒自己的一句话。</p>
+<p>这些是我个人的一些想法，如果有异议可以评论区留言，谢谢阅读。</p>
+]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Edge浏览器使用个人建议]]></title>
+        <id>https://heartlistener.github.io/post/edge-liu-lan-qi-shi-yong-ge-ren-jian-yi/</id>
+        <link href="https://heartlistener.github.io/post/edge-liu-lan-qi-shi-yong-ge-ren-jian-yi/">
+        </link>
+        <updated>2023-02-07T23:01:50.000Z</updated>
+        <summary type="html"><![CDATA[<ul>
+<li>Edge浏览器一直是我最喜欢的浏览器，从win10开始，我几乎连chrome都删了</li>
+<li>它的插件、pdf阅读、网页安装为应用、集锦等功能很实用</li>
+</ul>
+]]></summary>
+        <content type="html"><![CDATA[<ul>
+<li>Edge浏览器一直是我最喜欢的浏览器，从win10开始，我几乎连chrome都删了</li>
+<li>它的插件、pdf阅读、网页安装为应用、集锦等功能很实用</li>
+</ul>
+<!-- more -->
+<h2 id="浏览器美化">浏览器美化</h2>
+<h3 id="标签页美化">标签页美化</h3>
+<figure data-type="image" tabindex="1"><img src="https://pic.imgdb.cn/item/63e2dc354757feff335d5b67.png" alt="" loading="lazy"></figure>
+<h3 id="主题美化">主题美化</h3>
+<figure data-type="image" tabindex="2"><img src="https://pic.imgdb.cn/item/63e2dcdc4757feff335dfc82.png" alt="" loading="lazy"></figure>
+<h3 id="滚动条美化">滚动条美化</h3>
+<figure data-type="image" tabindex="3"><img src="https://pic.imgdb.cn/item/63e2df914757feff3360617d.png" alt="" loading="lazy"></figure>
+<h2 id="插件">插件</h2>
+<p><img src="https://pic.imgdb.cn/item/63e2e1b14757feff33624776.png" alt="" loading="lazy"><br>
+<img src="https://pic.imgdb.cn/item/63e2e1b14757feff33624784.png" alt="" loading="lazy"></p>
+<h2 id="网页安装为应用">网页安装为应用</h2>
+<p><img src="https://pic.imgdb.cn/item/63e2e6194757feff3366abd9.png" alt="" loading="lazy"><br>
+然后就可以向应用一样打开它</p>
+<p>可以锁定在任务栏，或者开始菜单</p>
+<h2 id="集锦">集锦</h2>
+<p>可以参考下面的文章，可以将网页和想法保存在一起<br>
+https://zhuanlan.zhihu.com/p/142838901</p>
+]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[实用微软小工具powertoys]]></title>
+        <id>https://heartlistener.github.io/post/shi-yong-wei-ruan-xiao-gong-ju-powertoys/</id>
+        <link href="https://heartlistener.github.io/post/shi-yong-wei-ruan-xiao-gong-ju-powertoys/">
+        </link>
+        <updated>2023-01-30T01:16:43.000Z</updated>
+        <summary type="html"><![CDATA[<ul>
+<li>以前用过listary,utool等工具，但是近期换了powertoys，感觉更小巧更方便</li>
+<li>它可以直接复制图片中的文字，将窗口固定，批量修改文件名，取色器，聚焦等</li>
+</ul>
+]]></summary>
+        <content type="html"><![CDATA[<ul>
+<li>以前用过listary,utool等工具，但是近期换了powertoys，感觉更小巧更方便</li>
+<li>它可以直接复制图片中的文字，将窗口固定，批量修改文件名，取色器，聚焦等</li>
+</ul>
+<!-- more -->
+<h2 id="复制图片中的文字">复制图片中的文字</h2>
+<p>第一步：设置快捷键<br>
+<img src="https://pic.imgdb.cn/item/63d71ce9face21e9ef17f061.png" alt="" loading="lazy"><br>
+第二步：打开需要复制的图片，按快捷键，框选需要复制的内容后松开鼠标自动复制<br>
+第三步：粘贴(ctrl v)<br>
+<img src="https://pic.imgdb.cn/item/63d71e49face21e9ef1a4beb.png" alt="" loading="lazy"></p>
+<h2 id="将窗口固定">将窗口固定</h2>
+<p>同上设置快捷键，然后点击需要固定的窗口，直接按设置的快捷键，即可固定<br>
+可以设置固定的状态</p>
+<h2 id="文件批量重命名">文件批量重命名</h2>
+<p>参考下面的视频<br>
+<a href="https://www.bilibili.com/video/BV1ze4y117CZ/?spm_id_from=333.337.search-card.all.click&amp;vd_source=0a60bc133053453dece32b7c7e830e8c">点击打开视频网页</a></p>
+<h2 id="取色器">取色器</h2>
+<p>同样设置快捷键，然后按快捷键，会实时显示扫过区域的颜色hex值，点击会有更详细的数据<br>
+<img src="https://pic.imgdb.cn/item/63d720a4face21e9ef1e1e26.png" alt="" loading="lazy"></p>
+<h2 id="聚焦">聚焦</h2>
+<p>按两下ctrl 键就能将鼠标位置聚焦，类似下面这样<br>
+<img src="https://pic.imgdb.cn/item/63d72153face21e9ef1f2cfa.png" alt="" loading="lazy"></p>
+<h2 id="提醒">提醒</h2>
+<p>如果有些功能用不到就从设置将它关闭，避免浪费计算机的性能</p>
+<h2 id="学习文档">学习文档</h2>
+<p><a href="https://learn.microsoft.com/zh-cn/windows/powertoys/">https://learn.microsoft.com/zh-cn/windows/powertoys/</a></p>
+<h2 id="下载地址">下载地址</h2>
+<p><a href="https://apps.microsoft.com/store/detail/microsoft-powertoys/XP89DCGQ3K6VLD">https://apps.microsoft.com/store</a></p>
+]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[关于新年祝福的一些感言]]></title>
+        <id>https://heartlistener.github.io/post/guan-yu-xin-nian-zhu-fu-de-yi-xie-gan-yan/</id>
+        <link href="https://heartlistener.github.io/post/guan-yu-xin-nian-zhu-fu-de-yi-xie-gan-yan/">
+        </link>
+        <updated>2023-01-21T17:24:15.000Z</updated>
+        <content type="html"><![CDATA[<ul>
+<li>新年祝福总是会让大家都开心，无论是给予者还是被给予者</li>
+<li>有些时候关系的纽带很奇特，不经意间可能就连上了，但是如果不维护可能又会断开</li>
+</ul>
+<p>今天是新年的第一天，正月初一，我收到了一些好友的新年祝福，虽然不多，但是又多了一些高中同学和大学同学。以前，我也不怎么留意新年祝福，因为发我的人不多，我也经常忘了回。所以，时间一长，几乎没有什么人在发给我了。</p>
+<p>主要原因是我不太敢于主动沟通，或者说不太擅长，我总是见到同学常常一句话说不出来，甚至有些时候还特意避开。有好多人曾经鼓励过我，让我多和人交流，可是我还是做不到。但是，从小学到大学，我都不觉得自己很孤单，因为我总能找到少数的几个朋友。</p>
+<p>小学的时候，我们几个小伙伴，每天中午都去我家玩耍，那时候我的一个朋友的妈妈在我家附近开酒店，我们从学校出发，走15min到酒店免费拿一些饮料，再去我家玩电脑，或是在小区里跑来跑去，或是编造一个情景进行模拟游戏，当时常常觉得中午的时间总是很短暂。</p>
+<p>初中的时候，我很忙了，当时参加了一些奥数班之类的，没什么用，根本跟不上。不过那时候，我有两个很好的朋友，我们每天同样一起玩耍，可惜后来有一个出国了，还有很多人都对我很好，他们有的和我一起放学走一条路，有的常常和我开玩笑逗我开心，尽管我几乎不怎么和他们说话，他们也都对我滔滔不绝。</p>
+<p>高中的时候，我做了一些改变，当时分文理科分班的时候，我还记得我一天就几乎和班里的所有同学都认识了，当时我是语文课代表，当时好多班里的同学喜欢听我演讲，但是我自己总是不满意，因为我当时只是喜欢和讲段子差不多的将一些语言结合在一起，但是没有一个很完善的主题，文采也不够。当时，真心觉得整个班级的同学都是我的朋友，尤其是我的几个组长和舍友，都对我不厌其烦，因为我比较喜欢只同时和一到两个人交流玩耍，所以也常常缠着其他人，但是他们也都没有反感，我其实对这些很感动。</p>
+<p>大学的时候，我也尝试着融入，但是总是由于太累太懒太胆小而早早放弃。不过我也认识了一些对我很好的人，比如：<br>
+我的建模组组长，他当时从十几个人中选择了我，在比赛时，我的程序的有问题，他还是相信了我，使得本来可以拿国奖的他没拿到，但是他从没有怪过我，总是给我一些很有用的建议；<br>
+还有，我的班长和舍友们，他们都是在我自己都不是很相信自己的时候，也选择了相信我，给过我很多鼓励和帮助；<br>
+和我一起学习的同学们也总是给我讲题，或是愿意听我讲题，我知道自己不太擅长讲题，所以很感动；<br>
+还有很多同学和老师，都在不同的方面给予过我很多的力量。</p>
+<p>可以说，我觉得我虽然不像我认识的其他朋友那样，有很多的好朋友，但是我认为在我的生命中的每一个阶段，这样的人也从来没有缺失过。</p>
+<p>我高中的一个组长，毕业后还每年给我单独发祝福，而且连着两年我基本都没回，但是他也还是在发。我的高中的几个同学，也有时会突然给我发祝福。我的大学同学，也有和我发祝福的，而且他们的祝福，我认为都是发自肺腑的，我可以感受的到他们的情感。</p>
+<p>所以，如果你也有那么几个好友，可以试着给他们发发祝福，别人我不太清楚，但是，对于我而言，如果你是真心的祝福，就永远不是一个打扰，我认为收到祝福的人都会是开心的。</p>
+]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[IP地址显示在网上安不安全？]]></title>
+        <id>https://heartlistener.github.io/post/ip-di-zhi-xian-shi-zai-wang-shang-an-bu-an-quan/</id>
+        <link href="https://heartlistener.github.io/post/ip-di-zhi-xian-shi-zai-wang-shang-an-bu-an-quan/">
+        </link>
+        <updated>2023-01-15T10:16:15.000Z</updated>
+        <summary type="html"><![CDATA[<p>今天，我想试试能不能将电脑上的文件能够由公网IP直接访问，发现还是有一些难度的。最终我从电脑实现了，但是由于IP地址是可变的，因此每天的IP都不同，因此只能持续1天，以后再研究吧</p>
+]]></summary>
+        <content type="html"><![CDATA[<p>今天，我想试试能不能将电脑上的文件能够由公网IP直接访问，发现还是有一些难度的。最终我从电脑实现了，但是由于IP地址是可变的，因此每天的IP都不同，因此只能持续1天，以后再研究吧</p>
+<!-- more -->
+<p>先给没有接触到IP地址的基础知识的朋友科普一下</p>
+<ul>
+<li>IP地址分为公网IP和内网IP</li>
+<li>公网IP分为IPv4 和 IPv6</li>
+</ul>
+<figure data-type="image" tabindex="1"><img src="https://pic.imgdb.cn/item/63c3f394be43e0d30ee0cc3b.jpg" alt="" loading="lazy"></figure>
+<p>更详细，更多的讲解可以参考B站UP主科技宅小明的下面的视频<br>
+<a href="https://www.bilibili.com/video/BV1Qq4y1w7F5/?spm_id_from=333.880.my_history.page.click&amp;vd_source=0a60bc133053453dece32b7c7e830e8c">补充内网穿透、NAT和IPv6</a></p>
+<p>由上面的内容我大概能得出一个结论，只知道你的外网地址只能直到你现在大概在哪所城市，而且会一直改变，因为IPv4是有限的需要合理化分配，因此大概也没有什么危险。</p>
+<p>还有，如果没什么特别要求就不要尝试通过电脑内网穿透来与外网连接了，需要电脑24小时开机，不如几十块钱，买一年小一点的云服务器划算</p>
+<p>如果你想要快速将手机和电脑<strong>通过局域网联系起来</strong>(只能在处于同意wifi下才可以)，通过电脑访问手机的内容，推荐下面两个软件：</p>
+<ul>
+<li>
+<p>OPlayer</p>
+</li>
+<li>
+<p>LANDrop</p>
+<p>直接下载链接<a href="https://www.123pan.com/s/V9GSVv-B9gIh">https://www.123pan.com/s/V9GSVv-B9gIh</a></p>
+</li>
+</ul>
+]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[好多时候价值不是由数量和贵贱衡量的，重点是你是否需要它]]></title>
+        <id>https://heartlistener.github.io/post/hao-duo-shi-hou-jie-zhi-bu-shi-you-shu-liang-he-gui-jian-heng-liang-de-chong-dian-shi-ni-shi-fou-xu-yao-ta/</id>
+        <link href="https://heartlistener.github.io/post/hao-duo-shi-hou-jie-zhi-bu-shi-you-shu-liang-he-gui-jian-heng-liang-de-chong-dian-shi-ni-shi-fou-xu-yao-ta/">
+        </link>
+        <updated>2023-01-13T14:40:43.000Z</updated>
+        <summary type="html"><![CDATA[<ul>
+<li><strong>我总是喜欢沉浸在一些东西里，无法自拔，白白浪费时间</strong></li>
+<li><strong>或许正如田静老师讲的不纠结可能是一个很好的对待一些问题的态度</strong></li>
+</ul>
+]]></summary>
+        <content type="html"><![CDATA[<ul>
+<li><strong>我总是喜欢沉浸在一些东西里，无法自拔，白白浪费时间</strong></li>
+<li><strong>或许正如田静老师讲的不纠结可能是一个很好的对待一些问题的态度</strong></li>
+</ul>
+<!-- more -->
+<p>这两天，由于感觉微软的网盘太小只有15gb，就总是想着换一个大一点的，尝试了123云盘，坚果云，teracloud，阿里云盘等，总觉得缺少一种，能够使用webdav同步的且空间稍大的网盘</p>
+<p>于是，就通过B站找到了Microsoft E5 开发者账号，一个全局管理员可以申请20多个子账号，每个子账号可以用5T空间，甚至5T满了后向微软申请可以扩到25T，这已经足够我用了，但是缺点是不稳定且只有90天。他需要通过账户的活跃程度判断是否给你续期。我使用了一个Outlook邮件收发API，和一个telegram机器人的API，来<br>
+不断刺激账户，维持活跃状态，但是也不能保证成功，所以我也几乎不怎么敢存重要的东西。</p>
+<p>我后来还为了用上他，下载了一个raidrive，将网盘映射到本地，只要有网就可以同本地硬盘类似使用云盘，就像下面一样：<img src="https://pic.imgdb.cn/item/63c17106be43e0d30e983909.png" alt="" loading="lazy"></p>
+<p>但是我发现这些几乎用不上，<strong>只不过是白白浪费时间一样</strong>，因为我其实连15G都存不满，有些时候我们总是想要一些东西只是因为自己没有，但是当有了的时候发现并用不上。所以<strong>如果你想要某些东西，请确切的思考你是否会用到它，会不会将它放在角落再也不拿出来了。</strong></p>
+]]></content>
+    </entry>
+</feed>
